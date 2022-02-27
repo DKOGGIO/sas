@@ -40,13 +40,7 @@
 		background-color: transparent;
 	}
 	/* extra for transparency 3 special case */
-	.themeDark-3Ap_7i, .app-3xd6d0 .chat-3bRxxu {
-		background-color: transparent;
-		background-image: var(--transparency-3);
-	}
-	.typeWindows-2-g3UY {
-		background-image: var(--transparency-5);
-	}
+	
 	/* removes margin from top area and adds it to the nav buttons + discord logo */
 	.typeWindows-2-g3UY {
 		height: 21px;
