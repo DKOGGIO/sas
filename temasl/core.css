@@ -36,9 +36,7 @@
 		background-image: var(--transparency-3);
 	}
 	/* removing color from specific class */
-	.panels-j1Uci_ {
-		background-color: transparent;
-	}
+	
 	/* extra for transparency 3 special case */
 	
 	/* removes margin from top area and adds it to the nav buttons + discord logo */
