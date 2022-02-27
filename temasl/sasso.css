@@ -431,7 +431,7 @@
 	}
 
 	/*ScrollBars*/
-		#app-mount ::-webkit-scrollbar-thumb {background-color: var(--primary2-colour); border-color: transparent;}
+        #app-mount ::-webkit-scrollbar-thumb {background-color: var(--primary2-colour); border-color: transparent;}
 
 	#app-mount .scrollerWrap-2lJEkd ::-webkit-scrollbar-track-piece {
 		background-color: transparent; 
