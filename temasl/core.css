@@ -31,10 +31,7 @@
 	/* transparency for channels and members list and private channels and left side of settings*/
 	
 	/* chat and top area and other secondary pages */
-	.app-3xd6d0 .chat-2ZfjoI, .app-3xd6d0 .scrollableContainer-15eg7h {
-		background: transparent;
-		background-image: var(--transparency-3);
-	}
+	
 	/* removing color from specific class */
 	
 	/* extra for transparency 3 special case */
