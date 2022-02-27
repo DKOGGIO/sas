@@ -44,51 +44,51 @@
 		color: var(--colour3);
 	}
 
-	/*Messages*/
-		#app-mount .hasMore-3e72_v {background-color: var(--secondary1-colour); color: var(--primary1-colour);}
-		#app-mount code {background-color: var(--secondary1-colour)}
+/*Messages*/
+	#app-mount .hasMore-3e72_v {background-color: var(--secondary1-colour); color: var(--primary1-colour);}
+	#app-mount code {background-color: var(--secondary1-colour)}
 
-		#app-mount .wrapperHover-1GktnT, 
-		#app-mount .mention {
-			background-color: var(--primary3-colour); 
-			color: var(--primary1-colour);
-		}
-		#app-mount .mentioned-xhSam7 {background-color: transparent;}
-		#app-mount .mentioned-xhSam7 .contents-2mQqc9, 
-		#app-mount .mentioned-xhSam7 .container-1ov-mD {
-			background-color: var(--primary3-colour);
-		}
-		#app-mount .mentioned-xhSam7:before {
-			background: var(--primary1-colour); 
-			width: 3px;
-			margin-left: 72px;
-		}
+	#app-mount .wrapperHover-1GktnT, 
+	#app-mount .mention {
+		background-color: var(--primary3-colour); 
+		color: var(--primary1-colour);
+	}
+	#app-mount .mentioned-xhSam7 {background-color: transparent;}
+	#app-mount .mentioned-xhSam7 .contents-2mQqc9, 
+	#app-mount .mentioned-xhSam7 .container-1ov-mD {
+		background-color: var(--primary3-colour);
+	}
+	#app-mount .mentioned-xhSam7:before {
+		background: var(--primary1-colour); 
+		width: 3px;
+		margin-left: 72px;
+	}
 
-		#app-mount .messageGroupBlocked-3wrQQX {background-color: var(--secondary1-colour);}
-		#app-mount .messageGroupBlockedBtn-1PBBh- {color: var(--primary1-colour);}
+	#app-mount .messageGroupBlocked-3wrQQX {background-color: var(--secondary1-colour);}
+	#app-mount .messageGroupBlockedBtn-1PBBh- {color: var(--primary1-colour);}
 
-		#app-mount a.anchor-3Z-8Bb {color: var(--primary1-colour);}
-		#app-mount .unreadMentionsBar-1VrBNe {background-color: var(--primary1-colour);}
-		#app-mount .channelTextArea-rNsIhG .scrollableContainer-15eg7h {background-color: var(--secondary1-colour);}
+	#app-mount a.anchor-3Z-8Bb {color: var(--primary1-colour);}
+	#app-mount .unreadMentionsBar-1VrBNe {background-color: var(--primary1-colour);}
+	#app-mount .channelTextArea-rNsIhG .scrollableContainer-15eg7h {background-color: var(--secondary1-colour);}
 
-		#app-mount .newMessagesBar-265mhP {background-color: var(--primary1-colour)} 
+	#app-mount .newMessagesBar-265mhP {background-color: var(--primary1-colour)} 
 
-		#app-mount .buttons-cl5qTG .wrapper-2aW0bm {background-color: var(--secondary1-colour);}
-		#app-mount .message-2qnXI6 {
-			padding-top: 0;
-			padding-bottom: 0;
-		}
+	#app-mount .buttons-cl5qTG .wrapper-2aW0bm {background-color: var(--secondary1-colour);}
+	#app-mount .message-2qnXI6 {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
 
 
-		#app-mount .contents-2mQqc9 img {margin-top: 0px;}
-		#app-mount .contents-2mQqc9,
-		#app-mount .container-1ov-mD {
-			background-color: var(--secondary1-colour);
-			padding: 0px 0 5px 10px;
-		}
-		#app-mount .header-23xsNx{
-			padding-top: 5px;
-		}
+	#app-mount .contents-2mQqc9 img {margin-top: 0px;}
+	#app-mount .contents-2mQqc9,
+	#app-mount .container-1ov-mD {
+		background-color: var(--secondary1-colour);
+		padding: 0px 0 5px 10px;
+	}
+	#app-mount .header-23xsNx{
+		padding-top: 5px;
+	}	
 
 	/*Voice*/
 		#app-mount .wrapperConnectedVoice-2mvQJY .content-20Aix8,
