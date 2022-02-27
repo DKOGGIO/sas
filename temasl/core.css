@@ -81,29 +81,7 @@
 	}
 
 	/*Home*/
-	#app-mount .container-1r6BKw {background: transparent;}
- 
-	#app-mount .itemCard-v9viV7,
-	#app-mount .popout-38lTFE {
-		background-color: var(--secondary3-colour)
-	}
-	#app-mount .itemCard-v9viV7:hover, 
-	#app-mount .itemCard-v9viV7.active-1xchHY {
-		background-color: var(--secondary2-colour);
-	}
-	#app-mount .body-1ld4H7 {background-color: var(--secondary1-colour);}
-
-	#app-mount .item-3HknzM[aria-label="Add Friend"] {background-color: var(--primary1-colour)!important}
-	#app-mount .item-3HknzM[style*="rgba(67, 181, 129, 0.2)"] {background-color: var(--primary2-colour)!important; color: var(--primary1-colour)!important;}
-
-	#app-mount .container-1D34oG {
-		background-color: transparent;
-		background-image: var(--transparency-1)
-	}
-
-	#app-mount .wrapper-2qzCYF {background: transparent; border-bottom: 2px solid var(--primary3-colour);}
-	#app-mount .centerButton-3CaNcJ {background-color: var(--secondary1-colour)}
-	#app-mount .leaveButton-2YnTyt {background-color: var(--primary3-colour);}
+	
 
 	/*Servers*/
 	#app-mount .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {background-color: var(--primary3-colour)}
