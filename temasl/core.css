@@ -599,15 +599,4 @@
 	#app-mount .wordmark-2u86JB {top: 3.3px;}
 	#app-mount .winButton-3UMjdg {top: 1px;}
 
-	/*Main Login*/
-	#app-mount .splashBackground-1FRCko .image-2jyRAK, 
-	#app-mount .splashBackground-1FRCko canvas {
-		display: none;
-	}
-	#app-mount .splashBackground-1FRCko {background-image: none;}
-
-	#app-mount .authBox-hW6HRx {background-color: var(--secondary1-colour); border-radius: 10px;}
-	#app-mount .authBox-hW6HRx .linkButton-wzh5kV {color: var(--primary1-colour);}
-	#app-mount .authBox-hW6HRx .inputDefault-_djjkz:focus {border-color: var(--primary1-colour);}
-
-	#app-mount .leftSplit-1qOwnR {width: 80%;}
+	
