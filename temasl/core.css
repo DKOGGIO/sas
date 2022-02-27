@@ -597,13 +597,7 @@
 		#app-mount .error-link {color: var(--primary1-colour);}
 		#app-mount .bd-modal-inner button {background-color: var(--primary1-colour)}
 
-	/*TopBar*/
-	#app-mount .typeWindows-2-g3UY {
-		background-color: var(--secondary3-colour); 
-		border-bottom: 2px solid var(--primary3-colour); 
-		height: 30px;
-		margin: 0px;
-	}
+	
 	
 
 	#app-mount .wordmark-2u86JB {top: 3.3px;}
