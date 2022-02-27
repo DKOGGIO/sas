@@ -2,19 +2,25 @@
     --background: url('https://i.imgur.com/fNYbttA.png');
     --activetext-colour: white;
 
-    --primary1-colour: red;
-    --primary2-colour: rgba(255,0,0,0.5);
-    --primary3-colour: rgba(100,0,0,0.6);
+    --primary1-colour: rgba(49,132,233,255);
+    --primary2-colour: rgb(49,132,233,255);
+    --primary3-colour: rgba(48, 44, 44, 0);
+    
 
-    --secondary1-colour: rgba(50,50,50,0.3);
-    --secondary2-colour: rgba(100,100,100,0.5);
-    --secondary3-colour: rgba(0,0,0,0.5);
+    --secondary1-colour: rgba(48,44,44);
+    --secondary2-colour: rgba(48,44,44);
+    --secondary3-colour: rgba(48,44,44);
 
-    --transparency-1: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-	--transparency-2: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-	--transparency-3: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-	--transparency-4: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    --transparency-5: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --colour1: rgb(49,132,233,255);
+	--colour1-active: rgba(49,132,233,255);
+
+	--colour1-disabled: rgba(249,132,233,255);
+	--colour1-disabled-border: rgb(49,132,233,255);
+
+	--colour2: rgba(40,40,40,0.4);
+	--colour2-border: rgb(40,40,40);
+
+	--colour3: white;
 }
 
 #app-mount {
