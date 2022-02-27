@@ -199,7 +199,7 @@
 
 		#app-mount a.anchor-3Z-8Bb {color: var(--primary1-colour);}
 		#app-mount .unreadMentionsBar-1VrBNe {background-color: var(--primary1-colour);}
-		#app-mount .channelTextArea-rNsIhG .scrollableContainer-15eg7h {background-color: var(--secondary1-colour);}
+		#app-mount .channelTextArea-rNsIhG .scrollableContainer-2NUZem {background-color: var(--secondary1-colour);}
 
 		#app-mount .newMessagesBar-265mhP {background-color: var(--primary1-colour)} 
 
@@ -544,14 +544,15 @@
 		#app-mount .bd-modal-inner button {background-color: var(--primary1-colour)}
 
 	/*TopBar*/
-	#app-mount .typeWindows-2-g3UY {
+	#app-mount .typeWindows-1za-n7, 
+	#app-mount .notice-2FJMB4 {
 		background-color: var(--secondary3-colour); 
 		border-bottom: 2px solid var(--primary3-colour); 
-		height: 30px;
-		margin: 0px;
+		height: 30px
+		
 	}
-	#app-mount .typeWindows-2-g3UY:after {
-		content: "GGO Kirito v1.2.4 By VaporousCreeper";
+	#app-mount .typeWindows-1za-n7:after {
+		content: "GGO Kirito v1.2.3 By VaporousCreeper";
 		color: rgb(255,255,255,0.5);
 		font-weight: 500;
 
@@ -560,8 +561,8 @@
 		left: 43.2%;
 	}
 
-	#app-mount .wordmark-2u86JB {top: 3.3px;}
-	#app-mount .winButton-3UMjdg {top: 1px;}
+	#app-mount .wordmark-2iDDfm {top: 3.3px;}
+	#app-mount .winButton-iRh8-Z {top: 1px;}
 
 	/*Main Login*/
 	#app-mount .splashBackground-1FRCko .image-2jyRAK, 
