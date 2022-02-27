@@ -26,11 +26,7 @@
 	
 	/* removing backgrounds */
 
-	/* Guild and Top bar transparency */
-	.theme-dark .wrapper-1_HaEi {
-		background:transparent;
-		background-image: var(--transparency-1);
-	}
+	
 	
 	/* transparency for channels and members list and private channels and left side of settings*/
 	.container-1NXEtd, .privateChannels-oVe7HL, .app-3xd6d0 .standardSidebarView-E9Pc3j, .app-3xd6d0 .container-2cd8Mz {
