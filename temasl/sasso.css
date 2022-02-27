@@ -431,9 +431,26 @@
 	}
 
 	/*ScrollBars*/
-		#app-mount ::-webkit-scrollbar-thumb { background-color: var(--colour2-border); border-color: transparent; }
-		#app-mount ::-webkit-scrollbar-track-piece { background-color: transparent; border-color: transparent; }
-		#app-mount ::-webkit-scrollbar-track { background-color: transparent; }
+		#app-mount ::-webkit-scrollbar-thumb {background-color: var(--primary2-colour); border-color: transparent;}
+
+	#app-mount .scrollerWrap-2lJEkd ::-webkit-scrollbar-track-piece {
+		background-color: transparent; 
+		border-color: transparent;
+	}
+
+	#app-mount .messagesWrapper-1sRNjr ::-webkit-scrollbar-track-piece, 
+	#app-mount .peopleColumn-29fq28 ::-webkit-scrollbar-track-piece, 
+	#app-mount .homeWrapperNormal-2KSUEa ::-webkit-scrollbar-track-piece {
+		background-color: transparent; 
+		border-color: transparent;
+	}
+	#app-mount .messagesWrapper-1sRNjr ::-webkit-scrollbar-track, 
+	#app-mount .peopleColumn-29fq28 ::-webkit-scrollbar-track, 
+	#app-mount .homeWrapperNormal-2KSUEa ::-webkit-scrollbar-track {
+		background-color: var(--primary3-colour); 
+		border-radius: 10px; 
+		border-color: var(--primary3-colour)
+	}
 
 	/*Modals and Popups*/
 		#app-mount .theme-dark .modal-3HD5ck {
