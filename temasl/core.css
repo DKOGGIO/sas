@@ -1,7 +1,7 @@
 
 
 :root{
-    --background: url('https://i.imgur.com/fNYbttA.png');
+    --background: url('https://images.alphacoders.com/632/632525.png');
     --activetext-colour: white;
 
     --primary1-colour: red;
@@ -19,38 +19,7 @@
     --transparency-5: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
 }
 
-/*--------------------------------------------------------*/
-	#app-mount {
-		background: var(--background-image);
-	}
-	
-	/* removing backgrounds */
 
-	
-	
-	/* transparency for channels and members list and private channels and left side of settings*/
-	
-	/* chat and top area and other secondary pages */
-	
-	/* removing color from specific class */
-	
-	/* extra for transparency 3 special case */
-	
-	/* removes margin from top area and adds it to the nav buttons + discord logo */
-	
-	
-	/* removes a border under better discord at channels */
-	.unread-1xRYoj {
-		display:none;
-	}
-	/* fixes */
-	.theme-dark {
-		--background-primary: none;
-		--background-secondary: none;
-		--background-tertiary: none;
-		--background-accent: none;
-	} 
-/*--------------------------------------------------------*/
 
 /*Theme Itself*/
 	/*Background Img*/
@@ -62,7 +31,29 @@
 	}
 
 	/*Home*/
-	
+	#app-mount .container-1r6BKw {background: transparent;}
+ 
+	#app-mount .itemCard-v9viV7,
+	#app-mount .popout-38lTFE {
+		background-color: var(--secondary3-colour)
+	}
+	#app-mount .itemCard-v9viV7:hover, 
+	#app-mount .itemCard-v9viV7.active-1xchHY {
+		background-color: var(--secondary2-colour);
+	}
+	#app-mount .body-1ld4H7 {background-color: var(--secondary1-colour);}
+
+	#app-mount .item-3HknzM[aria-label="Add Friend"] {background-color: var(--primary1-colour)!important}
+	#app-mount .item-3HknzM[style*="rgba(67, 181, 129, 0.2)"] {background-color: var(--primary2-colour)!important; color: var(--primary1-colour)!important;}
+
+	#app-mount .container-1D34oG {
+		background-color: transparent;
+		background-image: var(--transparency-1)
+	}
+
+	#app-mount .wrapper-2qzCYF {background: transparent; border-bottom: 2px solid var(--primary3-colour);}
+	#app-mount .centerButton-3CaNcJ {background-color: var(--secondary1-colour)}
+	#app-mount .leaveButton-2YnTyt {background-color: var(--primary3-colour);}
 
 	/*Servers*/
 	#app-mount .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {background-color: var(--primary3-colour)}
@@ -552,10 +543,35 @@
 		#app-mount .error-link {color: var(--primary1-colour);}
 		#app-mount .bd-modal-inner button {background-color: var(--primary1-colour)}
 
-	
-	
+	/*TopBar*/
+	#app-mount .typeWindows-2-g3UY {
+		background-color: var(--secondary3-colour); 
+		border-bottom: 2px solid var(--primary3-colour); 
+		height: 30px;
+		margin: 0px;
+	}
+	#app-mount .typeWindows-2-g3UY:after {
+		content: "GGO Kirito v1.2.4 By VaporousCreeper";
+		color: rgb(255,255,255,0.5);
+		font-weight: 500;
+
+		position: absolute;
+		top: 8px;
+		left: 43.2%;
+	}
 
 	#app-mount .wordmark-2u86JB {top: 3.3px;}
 	#app-mount .winButton-3UMjdg {top: 1px;}
 
-	
+	/*Main Login*/
+	#app-mount .splashBackground-1FRCko .image-2jyRAK, 
+	#app-mount .splashBackground-1FRCko canvas {
+		display: none;
+	}
+	#app-mount .splashBackground-1FRCko {background-image: none;}
+
+	#app-mount .authBox-hW6HRx {background-color: var(--secondary1-colour); border-radius: 10px;}
+	#app-mount .authBox-hW6HRx .linkButton-wzh5kV {color: var(--primary1-colour);}
+	#app-mount .authBox-hW6HRx .inputDefault-_djjkz:focus {border-color: var(--primary1-colour);}
+
+	#app-mount .leftSplit-1qOwnR {width: 80%;}
