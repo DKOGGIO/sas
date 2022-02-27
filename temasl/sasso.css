@@ -44,6 +44,26 @@
 		color: var(--colour3);
 	}
 
+	/*Text*/
+		#app-mount .content-20Aix8:hover {
+			background-color: var(--colour2);
+			border: 1px solid var(--colour2-border)
+		}
+		#app-mount .content-20Aix8 {
+			background-color: transparent; 
+			border: 1px solid transparent;
+		}
+		#app-mount .contentSelectedText-3wUhMi {
+			background-color: var(--colour2); 
+			border: 1px solid var(--colour2-border)
+		}
+
+		#app-mount .contentMutedText-2y6aPQ {
+			background-color: var(--colour1-disabled); 
+			border: 1px solid var(--colour1-disabled-border);
+		}
+
+		#app-mount .iconSpacing-3JkGQO .wrapper-232cHJ {background-color: var(--colour1)}
 
 
 	/*Voice*/
