@@ -37,10 +37,8 @@
 	/* extra for transparency 3 special case */
 	
 	/* removes margin from top area and adds it to the nav buttons + discord logo */
-	.typeWindows-2-g3UY {
-		height: 21px;
-		margin-top: 0px;
-	}
+	
+	
 	/* removes a border under better discord at channels */
 	.unread-1xRYoj {
 		display:none;
